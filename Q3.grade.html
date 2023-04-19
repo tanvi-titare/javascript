@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STudent Grade</title>
+</head>
+<script>
+    let marks=Number(prompt('Enter the obtained marks to chake your grade'));
+    /*marks < 40=> failed
+    marks 40 - 60 => pass 
+    marks 60 - 70 => B grade 
+    marks 70 - 90 =>A grade
+    marks 90 - 100 =>A+ grade*/
+    if (marks<40){
+         document.write("you are failed in exam");
+    }else if(marks>=40 && marks<60){
+        document.write("you fairly managed to pass thr final exam");
+    }else if(marks>60 && marks<70){
+        document.write("you pass exam with B grade");
+    }else if (marks>=70 && marks<90){
+        document.write("you pass exam with A garde");
+    }else if(marks>90 && marks<100){
+        documenrr.write("you pas exam with A+ grade");
+    }
+    
+</script>
+<body>
+    <h2>STudent grade</h2>
+    
+</body>
+</html>
